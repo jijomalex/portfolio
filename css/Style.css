@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;0,900;1,300;1,500&display=swap');
 
 :root{
     --maroon:#861e1b;
@@ -10,7 +10,7 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border:none;
-    text-transform: capitalize;
+    
     transition: all .2s linear;
 }
 
