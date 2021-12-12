@@ -370,10 +370,17 @@ header .navbar ul li a:hover{
     display: none;
 }
 
-.abc .socialIcon{
-    font-size: 28px;
+.abc .socialIcon1{
+    font-size: 28px; color: rgb(4, 175, 255);
 }
 
+.abc .socialIcon2{
+    font-size: 28px; color: rgb(252, 0, 0);
+}
+
+.abc .socialIcon3{
+    font-size: 28px; color: rgb(0, 255, 13);
+}
 
 @media (max-width:1200px){
 
