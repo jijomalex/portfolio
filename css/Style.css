@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
 :root{
-    --yellow:#861e1b;
+    --maroon:#861e1b;
 }
 
 *{
@@ -15,8 +15,8 @@
 }
 
 *::selection{
-    background:var(--yellow);
-    color:#333;
+    background:var(--maroon);
+    color:rgb(255, 255, 255);
 }
 
 html{
@@ -33,7 +33,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background:var(--yellow);
+    background:var(--maroon);
 }
 
 body{
@@ -49,7 +49,7 @@ section{
 
 .btn{
     padding:.7rem 3rem;
-    background:#333;
+    background:rgb(56, 55, 55);
     color:#fff;
     cursor: pointer;
     margin-top: 1rem;
@@ -63,7 +63,7 @@ section{
 }
 
 .btn:hover{
-    background:var(--yellow);
+    background:var(--maroon);
 }
 
 .heading{
@@ -76,7 +76,7 @@ section{
 }
 
 .heading span{
-    color:var(--yellow);
+    color:var(--maroon);
 }
 
 header{
@@ -99,7 +99,7 @@ header .user img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border:.7rem solid var(--yellow);
+    border:.7rem solid var(--maroon);
 }
 
 header .user .name{
@@ -133,7 +133,7 @@ header .navbar ul li a{
 }
 
 header .navbar ul li a:hover{
-    background:var(--yellow);
+    background:var(--maroon);
 }
 
 #menu{
@@ -166,7 +166,7 @@ header .navbar ul li a:hover{
 }
 
 .home h1 span{
-    color:var(--yellow);
+    color:var(--maroon);
 }
 
 .home p{
@@ -191,7 +191,7 @@ header .navbar ul li a:hover{
 
 .about .row .info h3{
     font-size: 2rem;
-    color:var(--yellow);
+    color:var(--maroon);
     padding:1rem 0;
     font-weight: normal;
 }
@@ -218,7 +218,7 @@ header .navbar ul li a:hover{
 
 .about .row .counter .box span{
     font-size: 4rem;
-    color:var(--yellow);
+    color:var(--maroon);
 }
 
 .about .row .counter .box h3{
@@ -273,7 +273,7 @@ header .navbar ul li a:hover{
     text-align: center;
     font-size: 2rem;
     color:#fff;
-    background:var(--yellow);
+    background:var(--maroon);
 }
 
 .portfolio .box-container{
@@ -360,7 +360,7 @@ header .navbar ul li a:hover{
 
 .contact .row .content .info h3 i{
     padding-right: 1rem;
-    color:var(--yellow);
+    color:var(--maroon);
 }
 
 .top{
@@ -370,90 +370,3 @@ header .navbar ul li a:hover{
     display: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* media queries  */
-
-@media (max-width:1200px){
-
-    html{
-        font-size: 55%;
-    }
-
-    .home{
-        padding:1rem 4rem;
-    }
-
-}
-
-@media (max-width:991px){
-
-   header{
-       left:-120%;
-   }
-
-   #menu{
-       display: block;
-   }
-
-   header.toggle{
-    left:0%;
-   }
-
-   body{
-       padding:0;
-   }
-
-}
-
-@media (max-width:768px){
-
-    html{
-        font-size: 50%;
-    }
- 
- }
-
-@media (max-width:400px){
-
-    header{
-        width: 100vw;
-    }
-
-    .heading{
-        margin:0 3rem;
-    }
-
-    .about .row .counter .box{
-        width: 100%;
-    }
- 
-    .education .box-container .box{
-        width:100%;
-    }
-
-    .portfolio .box-container .box{
-        width:100%;
-    }
-
-    .contact .row form{
-        margin:3rem 0;
-    }
-
- }
